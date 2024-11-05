@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3207D7142CDA205D00408AB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207D70E2CDA205D00408AB7 /* Preview Assets.xcassets */; };
+		3207D7152CDA205D00408AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207D7102CDA205D00408AB7 /* Assets.xcassets */; };
+		3207D7172CDA205D00408AB7 /* VolumeControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7122CDA205D00408AB7 /* VolumeControlApp.swift */; };
+		3207D71C2CDA20AF00408AB7 /* VolumeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D71B2CDA20AA00408AB7 /* VolumeControlView.swift */; };
+		3207D71F2CDA20CA00408AB7 /* VolumeControlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D71E2CDA20BB00408AB7 /* VolumeControlConfiguration.swift */; };
+		3207D7212CDA211000408AB7 /* GetConfigurationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7202CDA210800408AB7 /* GetConfigurationUseCase.swift */; };
+		3207D7242CDA216700408AB7 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7232CDA216300408AB7 /* DomainError.swift */; };
+		3207D7272CDA21AA00408AB7 /* GetConfigurationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7262CDA21A200408AB7 /* GetConfigurationRepository.swift */; };
+		3207D72B2CDA231700408AB7 /* VolumeControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D72A2CDA231300408AB7 /* VolumeControlViewModel.swift */; };
+		3207D72D2CDA232F00408AB7 /* VolumeControlViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D72C2CDA232A00408AB7 /* VolumeControlViewRepresentable.swift */; };
+		3207D7302CDA23B300408AB7 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D72F2CDA23B000408AB7 /* Color+.swift */; };
+		3207D7322CDA242000408AB7 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7312CDA241E00408AB7 /* Double+.swift */; };
+		3207D7342CDA243700408AB7 /* BarRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7332CDA243700408AB7 /* BarRepresentable.swift */; };
+		3207D7362CDA243E00408AB7 /* VolumeBarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7352CDA243E00408AB7 /* VolumeBarHeight.swift */; };
+		3207D7382CDA244400408AB7 /* VolumeBarSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7372CDA244400408AB7 /* VolumeBarSpacing.swift */; };
+		3207D73B2CDA2CD300408AB7 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3207D73A2CDA2CD300408AB7 /* config.xml */; };
+		3207D73D2CDA2E7A00408AB7 /* VolumeControlConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D73C2CDA2E7A00408AB7 /* VolumeControlConfigurationView.swift */; };
+		3207D73F2CDA2EF900408AB7 /* VolumeControlViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D73E2CDA2EF900408AB7 /* VolumeControlViewState.swift */; };
+		3207D7412CDA32DF00408AB7 /* VolumeControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207D7402CDA32DF00408AB7 /* VolumeControlScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3207D6FD2CDA205100408AB7 /* VolumeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207D70E2CDA205D00408AB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3207D7102CDA205D00408AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3207D7122CDA205D00408AB7 /* VolumeControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlApp.swift; sourceTree = "<group>"; };
+		3207D71B2CDA20AA00408AB7 /* VolumeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlView.swift; sourceTree = "<group>"; };
+		3207D71E2CDA20BB00408AB7 /* VolumeControlConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlConfiguration.swift; sourceTree = "<group>"; };
+		3207D7202CDA210800408AB7 /* GetConfigurationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetConfigurationUseCase.swift; sourceTree = "<group>"; };
+		3207D7232CDA216300408AB7 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		3207D7262CDA21A200408AB7 /* GetConfigurationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetConfigurationRepository.swift; sourceTree = "<group>"; };
+		3207D72A2CDA231300408AB7 /* VolumeControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlViewModel.swift; sourceTree = "<group>"; };
+		3207D72C2CDA232A00408AB7 /* VolumeControlViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlViewRepresentable.swift; sourceTree = "<group>"; };
+		3207D72F2CDA23B000408AB7 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		3207D7312CDA241E00408AB7 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		3207D7332CDA243700408AB7 /* BarRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarRepresentable.swift; sourceTree = "<group>"; };
+		3207D7352CDA243E00408AB7 /* VolumeBarHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeBarHeight.swift; sourceTree = "<group>"; };
+		3207D7372CDA244400408AB7 /* VolumeBarSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeBarSpacing.swift; sourceTree = "<group>"; };
+		3207D73A2CDA2CD300408AB7 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		3207D73C2CDA2E7A00408AB7 /* VolumeControlConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlConfigurationView.swift; sourceTree = "<group>"; };
+		3207D73E2CDA2EF900408AB7 /* VolumeControlViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlViewState.swift; sourceTree = "<group>"; };
+		3207D7402CDA32DF00408AB7 /* VolumeControlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3207D6FA2CDA205100408AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3207D6F42CDA205100408AB7 = {
+			isa = PBXGroup;
+			children = (
+				3207D7132CDA205D00408AB7 /* VolumeControl */,
+				3207D6FE2CDA205100408AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3207D6FE2CDA205100408AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3207D6FD2CDA205100408AB7 /* VolumeControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3207D70F2CDA205D00408AB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3207D70E2CDA205D00408AB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3207D7132CDA205D00408AB7 /* VolumeControl */ = {
+			isa = PBXGroup;
+			children = (
+				3207D7392CDA2CCC00408AB7 /* Resources */,
+				3207D72E2CDA23AC00408AB7 /* Utils */,
+				3207D71A2CDA20A600408AB7 /* Data */,
+				3207D7192CDA20A200408AB7 /* Domain */,
+				3207D7182CDA209C00408AB7 /* Presentation */,
+				3207D70F2CDA205D00408AB7 /* Preview Content */,
+				3207D7102CDA205D00408AB7 /* Assets.xcassets */,
+				3207D7122CDA205D00408AB7 /* VolumeControlApp.swift */,
+			);
+			path = VolumeControl;
+			sourceTree = "<group>";
+		};
+		3207D7182CDA209C00408AB7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3207D72C2CDA232A00408AB7 /* VolumeControlViewRepresentable.swift */,
+				3207D7332CDA243700408AB7 /* BarRepresentable.swift */,
+				3207D72A2CDA231300408AB7 /* VolumeControlViewModel.swift */,
+				3207D73E2CDA2EF900408AB7 /* VolumeControlViewState.swift */,
+				3207D7372CDA244400408AB7 /* VolumeBarSpacing.swift */,
+				3207D7352CDA243E00408AB7 /* VolumeBarHeight.swift */,
+				3207D71B2CDA20AA00408AB7 /* VolumeControlView.swift */,
+				3207D7402CDA32DF00408AB7 /* VolumeControlScreen.swift */,
+				3207D73C2CDA2E7A00408AB7 /* VolumeControlConfigurationView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3207D7192CDA20A200408AB7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3207D71D2CDA20B500408AB7 /* UseCases */,
+				3207D7222CDA215C00408AB7 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3207D71A2CDA20A600408AB7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3207D7252CDA219E00408AB7 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3207D71D2CDA20B500408AB7 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				3207D7202CDA210800408AB7 /* GetConfigurationUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		3207D7222CDA215C00408AB7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3207D71E2CDA20BB00408AB7 /* VolumeControlConfiguration.swift */,
+				3207D7232CDA216300408AB7 /* DomainError.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3207D7252CDA219E00408AB7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3207D7262CDA21A200408AB7 /* GetConfigurationRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3207D72E2CDA23AC00408AB7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3207D7312CDA241E00408AB7 /* Double+.swift */,
+				3207D72F2CDA23B000408AB7 /* Color+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3207D7392CDA2CCC00408AB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3207D73A2CDA2CD300408AB7 /* config.xml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3207D6FC2CDA205100408AB7 /* VolumeControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3207D70B2CDA205200408AB7 /* Build configuration list for PBXNativeTarget "VolumeControl" */;
+			buildPhases = (
+				3207D6F92CDA205100408AB7 /* Sources */,
+				3207D6FA2CDA205100408AB7 /* Frameworks */,
+				3207D6FB2CDA205100408AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeControl;
+			packageProductDependencies = (
+			);
+			productName = VolumeControl;
+			productReference = 3207D6FD2CDA205100408AB7 /* VolumeControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3207D6F52CDA205100408AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3207D6FC2CDA205100408AB7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3207D6F82CDA205100408AB7 /* Build configuration list for PBXProject "VolumeControl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3207D6F42CDA205100408AB7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3207D6FE2CDA205100408AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3207D6FC2CDA205100408AB7 /* VolumeControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3207D6FB2CDA205100408AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207D73B2CDA2CD300408AB7 /* config.xml in Resources */,
+				3207D7142CDA205D00408AB7 /* Preview Assets.xcassets in Resources */,
+				3207D7152CDA205D00408AB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3207D6F92CDA205100408AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207D72D2CDA232F00408AB7 /* VolumeControlViewRepresentable.swift in Sources */,
+				3207D7302CDA23B300408AB7 /* Color+.swift in Sources */,
+				3207D7362CDA243E00408AB7 /* VolumeBarHeight.swift in Sources */,
+				3207D7342CDA243700408AB7 /* BarRepresentable.swift in Sources */,
+				3207D73D2CDA2E7A00408AB7 /* VolumeControlConfigurationView.swift in Sources */,
+				3207D71C2CDA20AF00408AB7 /* VolumeControlView.swift in Sources */,
+				3207D7212CDA211000408AB7 /* GetConfigurationUseCase.swift in Sources */,
+				3207D7322CDA242000408AB7 /* Double+.swift in Sources */,
+				3207D71F2CDA20CA00408AB7 /* VolumeControlConfiguration.swift in Sources */,
+				3207D7382CDA244400408AB7 /* VolumeBarSpacing.swift in Sources */,
+				3207D72B2CDA231700408AB7 /* VolumeControlViewModel.swift in Sources */,
+				3207D73F2CDA2EF900408AB7 /* VolumeControlViewState.swift in Sources */,
+				3207D7242CDA216700408AB7 /* DomainError.swift in Sources */,
+				3207D7412CDA32DF00408AB7 /* VolumeControlScreen.swift in Sources */,
+				3207D7172CDA205D00408AB7 /* VolumeControlApp.swift in Sources */,
+				3207D7272CDA21AA00408AB7 /* GetConfigurationRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3207D7092CDA205200408AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3207D70A2CDA205200408AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3207D70C2CDA205200408AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeControl/Preview Content\"";
+				DEVELOPMENT_TEAM = 893B7F9TL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emelagudev.VolumeControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3207D70D2CDA205200408AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeControl/Preview Content\"";
+				DEVELOPMENT_TEAM = 893B7F9TL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emelagudev.VolumeControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3207D6F82CDA205100408AB7 /* Build configuration list for PBXProject "VolumeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207D7092CDA205200408AB7 /* Debug */,
+				3207D70A2CDA205200408AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3207D70B2CDA205200408AB7 /* Build configuration list for PBXNativeTarget "VolumeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207D70C2CDA205200408AB7 /* Debug */,
+				3207D70D2CDA205200408AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3207D6F52CDA205100408AB7 /* Project object */;
+}
