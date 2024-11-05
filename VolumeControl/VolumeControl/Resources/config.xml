@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Volume>10.0</Volume>
+    <NumberOfBars>20</NumberOfBars>
+    <ActiveColorHex>#0000FF</ActiveColorHex>
+    <InactiveColorHex>#808080</InactiveColorHex>
+</Configuration>
